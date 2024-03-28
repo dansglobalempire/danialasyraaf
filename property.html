@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danial Asyraaf</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            padding-bottom: 100px; /* Increased padding to accommodate the footer */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Common styles for all pages */
+        .house {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .house img {
+            max-width: 100%;
+            height: auto;
+        }
+		
+		        .house {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .house img {
+            max-width: 100%;
+            height: auto;
+        }
+		
+.whatsapp-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.whatsapp-container .description {
+    margin-left: 5px; /* Adjust as needed for spacing */
+    font-size: 14px; /* Adjust as needed for font size */
+    display: inline-block; /* Ensure the description is treated as a block element */
+    vertical-align: middle; /* Align vertically to center */
+}
+
+}
+
+
+    </style>
+</head>
+<!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  
+<body>
+
+<header>
+    <h1>Property</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="property.html">Property</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <label for="houseType">Filter by state:</label>
+    <select id="houseType">
+        <option value="all">All</option>
+        <option value="kedah">Kedah</option>
+        <option value="perak">Perak</option>
+		<option value="pahang">Pahang</option>
+        <!-- Add more options as needed -->
+    </select>
+	
+	<label for="state">Filter by area:</label>
+    <select id="state">
+        <option value="all">All</option>
+        <option value="sungaipetani">Sungai Petani</option>
+        <option value="tapah">Tapah</option>
+        <option value="sitiawan">Sitiawan</option>
+		<option value="falim">Falim</option>
+		<option value="raub">Raub</option>
+		<option value="raub">Ipoh</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <!-- House 1 -->
+    <div class="house kedah" data-state="sungaipetani">
+        <h3>BDB Lagenda Darulaman @ Kedah</h3>
+        <img src="imgkedah/imgsungaipetani/house1.jpg" alt="House 1">
+		<img src="imgkedah/imgsungaipetani/house2.jpg" alt="House 1 - Image 1">
+        <img src="imgkedah/imgsungaipetani/house3.jpg" alt="House 1 - Image 2">
+        <img src="imgkedah/imgsungaipetani/house4.jpg" alt="House 1 - Image 3">
+        <p>SINGLE STOREY TERRACE</p>
+		<p>PAKEJ:<p>
+		<p>☆ BOOKING RM300 sahaja!!<p>
+		<p>☆ CASHBACK RM30,000<p>
+		<p>☆ FREE SPA Legal Fee<p>
+		<p>☆ FREE MOT<p>
+		<p>☆ FREE Disbursements<p>
+		<p>Details:<p>
+		<p>• FREEHOLD<p>
+		<p>• 3 Bilik Tidur<p>
+		<p>• 2 Bilik Air</p>
+		<p>》Saiz Tanah: 1,350 sqft (20'x65')<p>
+		<p>》Saiz Binaan: 800 sqft (20'x40')</p>
+		<p>Starting Price: RM256,036</p>
+        <!-- WhatsApp icon with link to send message -->
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20BDBLagenda" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+		    <span class="description">Enquiry via WhatsApp</span>
+    </div>
+
+    <!-- House 2 -->
+    <div class="house perak" data-state="falim">
+        <h3>Pr1ma Falim @ Perak</h3>
+        <img src="imgperak/imgfalim/house1.jpg" alt="House 2">
+		<img src="imgperak/imgfalim/house2.jpg" alt="House 2 - Image 1">
+		<img src="imgperak/imgfalim/house3.jpg" alt="House 2 - Image 2">
+        <img src="imgperak/imgfalim/house4.jpg" alt="House 2 - Image 3">
+        <p>✅ Freehold<p>
+		<p>✅ Lokasi Yang Strategik<p>
+		<p>✅ 3 Bilik | 2 Bilik Air<p>
+		<p>✅ Sedia Didiami</p>
+		<p>BOOKING FEE RM500 SAJA<p>
+        <p>Starting Price: RM180,000</p>
+        <!-- WhatsApp icon with link to send message -->
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Pr1maFalim" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+		    <span class="description">Enquiry via WhatsApp</span>
+    </div>
+    
+    <!-- Add more houses -->
+    <!-- Repeat the following structure for additional houses -->
+
+    <!-- House 3 -->
+    <div class="house perak" data-state="sitiawan">
+        <h3>Pr1ma Sitiawan @ Perak</h3>
+        <img src="imgperak/imgsitiawan/house1.jpg" alt="House 3">
+		<img src="imgperak/imgsitiawan/house2.jpg" alt="House 3 - Image 1">
+		<img src="imgperak/imgsitiawan/house3.jpg" alt="House 3 - Image 2">
+        <img src="imgperak/imgsitiawan/house4.jpg" alt="House 3 - Image 3">
+        <p>🏡 Freehold (Malay Reserved)<p>
+		<p>DETAILS<p>
+		<p>✅Rumah Teres 1 Tingkat<p>
+		<p>✅3 bilik | 2 bilik air<p>
+		<p>✅Rumah Teres 2 Tingkat<p>
+		<p>✅4 bilik | 3 bilik air</p>
+        </p>FACILITIES :</p>
+		</p>🤍 Clubhouse</p>
+		</p>🤍 Playground</p>
+		</p>🤍 Surau </p>
+		</p>🤍 Dewan</p>
+		</p>🤍 Tadika & Taska</p>
+		</p>(REBATE RM30,000) 🥳</p>
+		</p>BOOKING RM100‼️</p>
+		</p>Starting Price: RM240,610</p>
+        <!-- WhatsApp icon with link to send message -->
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Pr1maSitiawan" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+		    <span class="description">Enquiry via WhatsApp</span>
+    </div>
+
+    <!-- House 4 -->
+    <div class="house perak" data-state="tapah">
+        <h3>Lagenda Tapah @ Perak</h3>
+        <img src="imgperak/imgtapah/house1.jpg" alt="House 4">
+		<img src="imgperak/imgtapah/house2.jpg" alt="House 4 - Image 1">
+        <p>SINGLE STOREY TERRACE</p>
+		<p>DIBUKA UNTUK PENDAFTARAN!!<p>
+		<p>PROJEK PERUMAHAN BARU<p>
+		<p>Starting Price: RM152,000</p>
+        <!-- WhatsApp icon with link to send message -->
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20LagendaTapah" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+		    <span class="description">Enquiry via WhatsApp</span>
+    </div>
+
+    <!-- House 5 -->
+    <div class="house perak" data-state="meru">
+        <h3>Pr1ma Meru @ Perak</h3>
+        <img src="imgperak/imgmeru/house1.jpg" alt="House 5">
+		<img src="imgperak/imgmeru/house2.jpg" alt="House 5 - Image 1">
+		<img src="imgperak/imgmeru/house3.jpg" alt="House 5 - Image 2">
+        <img src="imgperak/imgmeru/house4.jpg" alt="House 5 - Image 3">
+        <p>DETAILS<p>
+		<p>✅ 959sqft | 1137sqft<p>
+		<p>✅ 3 Bilik | 2 Bilik Air<p>
+		<p>✅ 2 Parking (Berbumbung)<p>
+		<p>✅ Freehold<p>
+		<p>✅ Completed with CCC<p>
+		<p>🥳 Swimming pool<p>
+		<p>🥳 Gimnasium<p>
+		<p>🥳 Surau<p>
+		<p>🥳 Dewan serba guna<p>
+		<p>🥳 Playground<p>
+		<p>🥳 Tadika, Taska<p>
+		<p>🥳 CCTV</p>
+        <p>Starting Price: RM230,000</p>
+        <!-- WhatsApp icon with link to send message -->
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Pr1maMeru" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+		    <span class="description">Enquiry via WhatsApp</span>
+    </div>
+
+    <!-- House 6 -->
+    <div class="house pahang" data-state="raub">
+        <h3>Taman Bukit Koman 2 @ Pahang</h3>
+        <img src="imgpahang/imgraub/house1.jpg" alt="House 6">
+		<img src="imgpahang/imgraub/house2.jpg" alt="House 6 - Image 1">
+		<img src="imgpahang/imgraub/house3.jpg" alt="House 6 - Image 2">
+        <img src="imgpahang/imgraub/house4.jpg" alt="House 6 - Image 3">
+        <p>REZAB MELAYU<p>
+		<p>DETAILS<p>
+		<p>✅Rumah Teres Setingkat<p>
+		<p>✅ Land Area: 22'x65'<p>
+		<p>(REBATE 10%) 🥳<p>
+        <p>Starting Price: RM267,840</p>
+        <!-- WhatsApp icon with link to send message -->
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20TamanBukitKoman2Pahang" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+    <span class="description">Enquiry via WhatsApp</span>
+    </div>
+
+    <!-- House 7 
+    <div class="house kedah" data-state="Kedah">
+        <h3>Historic Manor</h3>
+        <img src="imgproperty/house7.jpg" alt="House 7">
+        <p>Own a piece of history with this majestic historic manor. Featuring 8 bedrooms, ornate architecture, and sprawling grounds, it's a timeless masterpiece.</p>
+        <p>Price: $3,000,000</p>
+        <!-- WhatsApp icon with link to send message 
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Historic%20Manor%20-%20$3,000,000" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+    </div>
+
+    <!-- House 8 
+    <div class="house perak" data-state="Pahang">
+        <h3>Country Farmhouse</h3>
+        <img src="imgproperty/house8.jpg" alt="House 8">
+        <p>Experience the charm of country living in this classic farmhouse. With 4 bedrooms, a wrap-around porch, and acres of farmland, it's perfect for those seeking a rural lifestyle.</p>
+        <p>Price: $600,000</p>
+        <!-- WhatsApp icon with link to send message
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Country%20Farmhouse%20-%20$600,000" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+    </div>
+
+    <!-- House 9 
+    <div class="house kedah" data-state="Kedah">
+        <h3>Contemporary Loft</h3>
+        <img src="imgproperty/house9.jpg" alt="House 9">
+        <p>Live in style in this sleek contemporary loft. Featuring an open floor plan, industrial-chic design, and city views, it's ideal for modern urban dwellers.</p>
+        <p>Price: $800,000</p>
+        <!-- WhatsApp icon with link to send message
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Contemporary%20Loft%20-%20$800,000" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+    </div>
+
+    <!-- House 10 
+    <div class="house perak" data-state="Perak">
+        <h3>Beachfront Bungalow</h3>
+        <img src="imgproperty/house10.jpg" alt="House 10">
+        <img src="imgproperty/house101.jpg" alt="House 10 - Image 1">
+        <img src="imgproperty/house102.jpg" alt="House 10 - Image 2">
+        <img src="imgproperty/house103.jpg" alt="House 10 - Image 3">
+        <p>Enjoy beachfront living in this charming bungalow. With 3 bedrooms, a private patio, and direct beach access, it's perfect for relaxation and recreation.</p>
+        <p>Price: $1,200,000</p>
+        <!-- WhatsApp icon with link to send message 
+        <a href="https://wa.me/60182354566?text=I'm%20interested%20in%20this%20house:%20Beachfront%20Bungalow%20-%20$1,200,000" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="30" height="30">
+        </a>
+    </div>-->
+</main>
+
+<footer id="footer">
+    <p>Copyright © 2024 DANS GLOBAL EMPIRE. All rights reserved</p>
+</footer>
+
+<script>
+    // Filter houses based on the selected house type and state
+    document.getElementById('houseType').addEventListener('change', filterHouses);
+    document.getElementById('state').addEventListener('change', filterHouses);
+
+    function filterHouses() {
+        let selectedHouseType = document.getElementById('houseType').value;
+        let selectedState = document.getElementById('state').value;
+        let houses = document.querySelectorAll('.house');
+
+        houses.forEach(function(house) {
+            let houseType = house.classList.contains(selectedHouseType) || selectedHouseType === 'all';
+            let state = house.dataset.state === selectedState || selectedState === 'all';
+            if (houseType && state) {
+                house.style.display = 'block';
+            } else {
+                house.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
